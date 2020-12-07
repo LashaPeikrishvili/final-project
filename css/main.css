@@ -6,7 +6,7 @@
     margin: 0 auto;
     top: 0;
     padding: 20px;
-    position: fixed;
+    position: absolute;
     background-color: cadetblue;
 }
 .li{
@@ -68,10 +68,16 @@ h2{
     font-size: 30px;
     position: absolute;
     margin-bottom: 800px;
-    padding-top: 300px;
+    padding-top: 20px;
     padding-left: 30px;
 }
 .begining{
     padding-bottom: 200px;
     display: flex;
+}
+.top{
+    font-size: 20px;
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 30px;
 }
