@@ -81,3 +81,12 @@ h2{
     padding-top: 80px;
     padding-left: 30px;
 }
+.bike h3{
+    font-size: 30px;
+    padding-left: 30px;
+}
+.bike p{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
