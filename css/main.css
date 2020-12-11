@@ -90,3 +90,17 @@ h2{
     padding-left: 30px;
     padding-top: 40px;
 }
+.bike-photo{
+    width: 1980px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: darkblue;
+}
+.bike-photo img{
+    width: 250px;
+    margin: 20px;
+}
+.bike-photo{
+    display: flex;
+    flex-wrap: wrap;
+}
