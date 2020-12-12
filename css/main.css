@@ -108,3 +108,81 @@ h2{
     display: flex;
     flex-wrap: wrap;
 }
+.sedan h3{
+    font-size: 30px;
+    padding-left: 30px;
+    position: absolute;
+    background-color: aquamarine;
+}
+.sedan p{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.sedan-photo{
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: darkblue;
+}
+.sedan-photo img{
+    width: 250px;
+    margin: 20px;
+}
+.sedan-photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jeep h3{
+    font-size: 30px;
+    padding-left: 30px;
+    position: absolute;
+    background-color: aquamarine;
+}
+.jeep p{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.x-photo{
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: darkblue;
+}
+.x-photo img{
+    width: 250px;
+    margin: 20px;
+}
+.x-photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sport-car h3{
+    font-size: 30px;
+    padding-left: 30px;
+    position: absolute;
+    background-color: aquamarine;
+}
+.sport-car p{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.sc-photo{
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: darkblue;
+}
+.sc-photo img{
+    width: 250px;
+    margin: 20px;
+}
+.sc-photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
