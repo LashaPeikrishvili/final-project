@@ -104,6 +104,10 @@ h2{
     width: 250px;
     margin: 20px;
 }
+.bike-photo video{
+    width: 250px;
+    margin: 20px;
+}
 .bike-photo{
     display: flex;
     flex-wrap: wrap;
@@ -126,6 +130,10 @@ h2{
     background-color: darkblue;
 }
 .sedan-photo img{
+    width: 250px;
+    margin: 20px;
+}
+.sedan-photo video{
     width: 250px;
     margin: 20px;
 }
