@@ -7,7 +7,7 @@
     margin: 0 auto;
     top: 0;
     /*padding: 20px;*/
-    position: absolute;
+    position: relative;
     background-color: cadetblue;
 }
 .li{
@@ -22,6 +22,7 @@
 }
 .logo{
     padding-left: 80px;
+    padding-top: 5px;
     float: left;
 }
 .list{
@@ -57,6 +58,39 @@
 .ateg:hover{
     font-size: 45px;
     color: red;
+}
+.home{
+    background-color: black;
+    max-width: 1980px;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.home ::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,1);
+    animation: mask 10s forwards;
+}
+@keyframes mask{
+    100%{
+        background: rgba(0,0,0,0.5);
+    }
+}
+.home img{
+    animation: img 10s forwards;
+    transform-origin: right bottom;
+}
+@keyframes img{
+    100%{
+        transform: scale(1.3);
+    }
 }
 .history{
     width: 100%;
@@ -108,6 +142,9 @@ h2{
     width: 250px;
     margin: 20px;
 }
+.bikes:hover{
+    border: solid 4px aquamarine;
+}
 .bike-photo{
     display: flex;
     flex-wrap: wrap;
@@ -136,6 +173,9 @@ h2{
 .sedan-photo video{
     width: 250px;
     margin: 20px;
+}
+.sedans:hover{
+    border: solid 4px aquamarine;
 }
 .sedan-photo{
     display: flex;
@@ -166,6 +206,9 @@ h2{
     width: 250px;
     margin: 20px;
 }
+.x:hover{
+    border: solid 4px aquamarine;
+}
 .x-photo{
     display: flex;
     flex-wrap: wrap;
@@ -194,6 +237,9 @@ h2{
 .sc-photo video{
     width: 250px;
     margin: 20px;
+}
+.sc:hover{
+    border: solid 4px aquamarine;
 }
 .sc-photo{
     display: flex;
