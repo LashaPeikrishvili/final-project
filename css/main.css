@@ -56,8 +56,10 @@
     }
 }
 .ateg:hover{
-    font-size: 45px;
     color: red;
+}
+.li:hover{
+    transform: scale(1.3);
 }
 .home{
     background-color: black;
@@ -142,8 +144,8 @@ h2{
     width: 250px;
     margin: 20px;
 }
-.bikes:hover{
-    border: solid 4px aquamarine;
+.bike-photo img:hover{
+    transform: scale(1.1);
 }
 .bike-photo{
     display: flex;
@@ -174,8 +176,8 @@ h2{
     width: 250px;
     margin: 20px;
 }
-.sedans:hover{
-    border: solid 4px aquamarine;
+.sedan-photo img:hover{
+    transform: scale(1.1);
 }
 .sedan-photo{
     display: flex;
@@ -206,8 +208,8 @@ h2{
     width: 250px;
     margin: 20px;
 }
-.x:hover{
-    border: solid 4px aquamarine;
+.x-photo img:hover{
+    transform: scale(1.1);
 }
 .x-photo{
     display: flex;
@@ -238,8 +240,8 @@ h2{
     width: 250px;
     margin: 20px;
 }
-.sc:hover{
-    border: solid 4px aquamarine;
+.sc-photo img:hover{
+    transform: scale(1.1);
 }
 .sc-photo{
     display: flex;
