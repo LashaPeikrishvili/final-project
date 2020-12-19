@@ -81,7 +81,7 @@
         by a flat-twin engine (also called a "boxer-twin" engine). Production of motorcycles with flat-twin engines continues 
         to this day, however BMW has also produced many models with other types of engine.</p>
      </div>
-     <div>
+     <div class="bike-bg">
         <div class="bike-photo">
             <img src="pictures/bmw-bike.jpg" alt="bike" class="bikes">
             <img src="pictures/bmw-bike1.jpg" alt="bike1" class="bikes">
@@ -172,5 +172,22 @@
         </div>
     </div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
 </body>
 </html>

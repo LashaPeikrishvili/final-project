@@ -1,5 +1,6 @@
-body{
+.bike-bg{
     background-image: url(../pictures/bg3.jpg);
+    background-repeat: no-repeat;
 }
 .nav-bar{
     /*display: flex;
