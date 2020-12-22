@@ -348,6 +348,32 @@ input[name="r"]{
     /*display: flex;
     flex-wrap: wrap;*/
 }
+@media all and (max-width: 768px){
+    div.top p{
+        font-size: 7px;
+    }
+    div.slides{
+        display: none;
+    }
+    div.bike-bg{
+        background-image: none;
+    }
+    div.sedan-bg{
+        background-image: none;
+    }
+    div.x-bg{
+        background-image: none;
+    }
+    div.sc-bg{
+        background-image: none;
+    }
+    div.foot-bottom{
+        margin-top: 1px;
+    }
+    div.foot{
+        padding-left: 30%;
+    }
+}
 
 
 
