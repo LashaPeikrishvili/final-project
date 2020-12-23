@@ -24,7 +24,7 @@
     top: 0;
     /*padding: 20px;*/
     position: relative;
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
 }
 .li{
     display: inline-block;
@@ -376,7 +376,7 @@ input[name="r"]{
     div.logo img{
         width: 70px;
     }
-}
+ }
 
 
 
