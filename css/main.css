@@ -373,6 +373,9 @@ input[name="r"]{
     div.foot{
         padding-left: 30%;
     }
+    div.logo img{
+        width: 70px;
+    }
 }
 
 
